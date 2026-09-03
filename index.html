@@ -1,0 +1,3781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<meta name="theme-color"
+      content="#050505">
+
+<meta name="description"
+      content="Sick Fetish video archive">
+
+<title>Sick Fetish</title>
+
+
+<style>
+
+/* =====================================================
+   RESET
+===================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding-bottom: 70px;
+
+    background:
+        radial-gradient(
+            circle at 10% 5%,
+            rgba(255,255,255,.018),
+            transparent 24%
+        ),
+        radial-gradient(
+            circle at 90% 80%,
+            rgba(255,255,255,.012),
+            transparent 26%
+        ),
+        #050505;
+
+    color: #dddddd;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+}
+
+
+/* =====================================================
+   VARIABLES
+===================================================== */
+
+:root {
+
+    --bg:
+        #050505;
+
+    --surface:
+        #0b0b0b;
+
+    --surface-2:
+        #111111;
+
+    --border:
+        #242424;
+
+    --border-light:
+        #2d2d2d;
+
+    --text:
+        #dddddd;
+
+    --text-bright:
+        #eeeeee;
+
+    --muted:
+        #666666;
+
+    --muted-dark:
+        #454545;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.header {
+
+    position:
+        sticky;
+
+    top:
+        0;
+
+    z-index:
+        100;
+
+    background:
+        rgba(5,5,5,.95);
+
+    backdrop-filter:
+        blur(18px);
+
+    -webkit-backdrop-filter:
+        blur(18px);
+
+    border-bottom:
+        1px solid #171717;
+}
+
+
+.header-inner {
+
+    width:
+        min(1400px,94%);
+
+    min-height:
+        76px;
+
+    margin:
+        auto;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    gap:
+        24px;
+}
+
+
+/* =====================================================
+   LOGO
+===================================================== */
+
+.logo {
+
+    width:
+        190px;
+
+    aspect-ratio:
+        1600 / 380;
+
+    flex-shrink:
+        0;
+
+    overflow:
+        hidden;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    cursor:
+        pointer;
+
+    user-select:
+        none;
+}
+
+
+.logo img {
+
+    width:
+        100%;
+
+    height:
+        100%;
+
+    object-fit:
+        contain;
+
+    display:
+        block;
+
+    filter:
+        none;
+
+    transition:
+        transform .2s ease;
+}
+
+
+.logo:hover img {
+
+    transform:
+        scale(1.025);
+}
+
+
+/* =====================================================
+   SEARCH WRAPPER
+===================================================== */
+
+.search-wrapper {
+
+    position:
+        relative;
+
+    flex:
+        1;
+
+    max-width:
+        620px;
+
+    margin:
+        auto;
+}
+
+
+/* =====================================================
+   SEARCH
+===================================================== */
+
+.search {
+
+    width:
+        100%;
+
+    height:
+        43px;
+
+    padding:
+        0 44px 0 17px;
+
+    background:
+        #090909;
+
+    color:
+        #dddddd;
+
+    border:
+        1px solid #242424;
+
+    border-radius:
+        11px;
+
+    outline:
+        none;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    font-size:
+        13px;
+
+    box-shadow:
+        3px 3px 0 #020202;
+
+    transition:
+        border-color .2s ease,
+        background .2s ease;
+}
+
+
+.search::placeholder {
+
+    color:
+        #444444;
+}
+
+
+.search:focus {
+
+    border-color:
+        #3b3b3b;
+
+    background:
+        #0d0d0d;
+}
+
+
+/* =====================================================
+   SEARCH CANCEL
+===================================================== */
+
+.search-cancel {
+
+    position:
+        absolute;
+
+    right:
+        7px;
+
+    top:
+        50%;
+
+    transform:
+        translateY(-50%);
+
+    width:
+        30px;
+
+    height:
+        30px;
+
+    padding:
+        0;
+
+    border:
+        0;
+
+    border-radius:
+        8px;
+
+    background:
+        transparent;
+
+    color:
+        #555555;
+
+    cursor:
+        pointer;
+
+    font-size:
+        20px;
+
+    line-height:
+        30px;
+
+    display:
+        none;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    transition:
+        background .15s ease,
+        color .15s ease;
+}
+
+
+.search-wrapper.has-text .search-cancel {
+
+    display:
+        flex;
+}
+
+
+.search-cancel:hover {
+
+    background:
+        #191919;
+
+    color:
+        #dddddd;
+}
+
+
+/* =====================================================
+   RANDOM BUTTON
+===================================================== */
+
+.random-button {
+
+    width:
+        43px;
+
+    height:
+        43px;
+
+    flex-shrink:
+        0;
+
+    border:
+        1px solid #292929;
+
+    border-radius:
+        11px;
+
+    background:
+        #0b0b0b;
+
+    color:
+        #666666;
+
+    cursor:
+        pointer;
+
+    font-size:
+        21px;
+
+    box-shadow:
+        3px 3px 0 #020202;
+
+    transition:
+        .2s ease;
+}
+
+
+.random-button:hover {
+
+    color:
+        #dddddd;
+
+    background:
+        #111111;
+
+    transform:
+        rotate(8deg)
+        translateY(-2px);
+}
+
+
+/* =====================================================
+   MAIN
+===================================================== */
+
+.main {
+
+    width:
+        min(1400px,94%);
+
+    margin:
+        auto;
+
+    padding:
+        36px 0 0;
+}
+
+
+/* =====================================================
+   SECTION HEADER
+===================================================== */
+
+.top-bar {
+
+    margin-bottom:
+        29px;
+}
+
+
+.heading {
+
+    margin:
+        0;
+
+    color:
+        #e1e1e1;
+
+    font-size:
+        29px;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        -.6px;
+
+    line-height:
+        1.1;
+}
+
+
+.status {
+
+    margin-top:
+        9px;
+
+    color:
+        #484848;
+
+    font-size:
+        11px;
+}
+
+
+/* =====================================================
+   LOADER
+===================================================== */
+
+.loader {
+
+    width:
+        31px;
+
+    height:
+        31px;
+
+    margin:
+        55px auto;
+
+    border:
+        3px solid #272727;
+
+    border-top-color:
+        #b0b0b0;
+
+    border-radius:
+        50%;
+
+    animation:
+        spin .75s linear infinite;
+}
+
+
+@keyframes spin {
+
+    to {
+
+        transform:
+            rotate(360deg);
+    }
+
+}
+
+
+/* =====================================================
+   GRID
+===================================================== */
+
+.grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(5,minmax(0,1fr));
+
+    gap:
+        30px 17px;
+}
+
+
+/* =====================================================
+   CARD
+===================================================== */
+
+.card {
+
+    min-width:
+        0;
+
+    cursor:
+        pointer;
+
+    transition:
+        transform .2s ease;
+}
+
+
+.card:nth-child(4n+1) {
+
+    transform:
+        rotate(-.3deg);
+}
+
+
+.card:nth-child(4n+2) {
+
+    transform:
+        rotate(.2deg);
+}
+
+
+.card:nth-child(4n+3) {
+
+    transform:
+        rotate(-.15deg);
+}
+
+
+.card:nth-child(4n) {
+
+    transform:
+        rotate(.25deg);
+}
+
+
+.card:hover {
+
+    transform:
+        translateY(-5px)
+        rotate(0deg);
+}
+
+
+/* =====================================================
+   THUMBNAIL
+===================================================== */
+
+.thumbnail {
+
+    position:
+        relative;
+
+    width:
+        100%;
+
+    aspect-ratio:
+        16 / 10;
+
+    overflow:
+        hidden;
+
+    background:
+        linear-gradient(
+            135deg,
+            #151515,
+            #070707
+        );
+
+    border:
+        1px solid #222222;
+
+    border-radius:
+        10px;
+
+    box-shadow:
+        4px 5px 0 #020202;
+
+    transition:
+        border-color .2s ease,
+        box-shadow .2s ease;
+}
+
+
+.card:hover .thumbnail {
+
+    border-color:
+        #353535;
+
+    box-shadow:
+        5px 7px 0 #010101;
+}
+
+
+/* =====================================================
+   THUMBNAIL IMAGE
+===================================================== */
+
+.thumbnail img {
+
+    position:
+        absolute;
+
+    inset:
+        0;
+
+    width:
+        100%;
+
+    height:
+        100%;
+
+    display:
+        block;
+
+    object-fit:
+        cover;
+
+    opacity:
+        .9;
+
+    transition:
+        transform .4s ease,
+        opacity .25s ease,
+        filter .25s ease;
+}
+
+
+.card:hover .thumbnail img {
+
+    transform:
+        scale(1.055);
+
+    opacity:
+        .72;
+
+    filter:
+        brightness(.8);
+}
+
+
+/* =====================================================
+   SUBTLE THUMBNAIL DETAIL
+===================================================== */
+
+.thumbnail::before {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    z-index:
+        4;
+
+    left:
+        8px;
+
+    top:
+        8px;
+
+    width:
+        6px;
+
+    height:
+        6px;
+
+    border-radius:
+        50%;
+
+    background:
+        #555555;
+
+    opacity:
+        .8;
+}
+
+
+/* =====================================================
+   TITLE
+===================================================== */
+
+.title {
+
+    padding:
+        10px 2px 0;
+
+    color:
+        #cfcfcf;
+
+    font-size:
+        13px;
+
+    font-weight:
+        600;
+
+    line-height:
+        1.4;
+
+    letter-spacing:
+        -.1px;
+
+    display:
+        -webkit-box;
+
+    -webkit-line-clamp:
+        2;
+
+    -webkit-box-orient:
+        vertical;
+
+    overflow:
+        hidden;
+
+    transition:
+        color .2s ease;
+}
+
+
+.card:hover .title {
+
+    color:
+        #eeeeee;
+}
+
+
+/* =====================================================
+   PAGINATION
+===================================================== */
+
+.pagination {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    flex-wrap:
+        wrap;
+
+    gap:
+        7px;
+
+    margin:
+        58px 0 20px;
+}
+
+
+.page-button {
+
+    min-width:
+        39px;
+
+    height:
+        39px;
+
+    padding:
+        0 10px;
+
+    border:
+        1px solid #242424;
+
+    border-radius:
+        10px;
+
+    background:
+        #090909;
+
+    color:
+        #555555;
+
+    cursor:
+        pointer;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    font-size:
+        12px;
+
+    box-shadow:
+        2px 3px 0 #020202;
+
+    transition:
+        .18s ease;
+}
+
+
+.page-button:hover {
+
+    color:
+        #cccccc;
+
+    background:
+        #111111;
+
+    transform:
+        translateY(-2px);
+}
+
+
+.page-button.active {
+
+    color:
+        #111111;
+
+    background:
+        #dddddd;
+
+    border-color:
+        #dddddd;
+
+    font-weight:
+        700;
+
+    transform:
+        rotate(-3deg);
+
+    box-shadow:
+        3px 4px 0 #000000;
+}
+
+
+.page-button:disabled {
+
+    opacity:
+        .2;
+
+    cursor:
+        default;
+
+    transform:
+        none;
+}
+
+
+/* =====================================================
+   EMPTY
+===================================================== */
+
+.empty {
+
+    display:
+        none;
+
+    padding:
+        100px 20px;
+
+    text-align:
+        center;
+
+    color:
+        #444444;
+
+    font-size:
+        13px;
+}
+
+
+/* =====================================================
+   VIDEO MODAL
+===================================================== */
+
+.modal {
+
+    position:
+        fixed;
+
+    inset:
+        0;
+
+    z-index:
+        1000;
+
+    display:
+        none;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    padding:
+        24px;
+
+    background:
+        rgba(0,0,0,.93);
+
+    backdrop-filter:
+        blur(8px);
+
+    -webkit-backdrop-filter:
+        blur(8px);
+}
+
+
+.modal.open {
+
+    display:
+        flex;
+}
+
+
+/* =====================================================
+   SMALLER CENTERED POPUP
+===================================================== */
+
+.modal-box {
+
+    width:
+        min(900px,92vw);
+
+    /*
+    Keeps the popup comfortably
+    inside the screen.
+    */
+
+    max-height:
+        88vh;
+
+    overflow:
+        hidden;
+
+    background:
+        #080808;
+
+    border:
+        1px solid #292929;
+
+    border-radius:
+        12px;
+
+    box-shadow:
+        7px 8px 0 #000000;
+}
+
+
+/* =====================================================
+   MODAL HEADER
+===================================================== */
+
+.modal-header {
+
+    min-height:
+        58px;
+
+    padding:
+        9px 10px 9px 16px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    gap:
+        10px;
+
+    border-bottom:
+        1px solid #1d1d1d;
+}
+
+
+/* =====================================================
+   MODAL TITLE
+===================================================== */
+
+.modal-title {
+
+    flex:
+        1;
+
+    min-width:
+        0;
+
+    color:
+        #cccccc;
+
+    font-size:
+        14px;
+
+    font-weight:
+        700;
+
+    line-height:
+        1.35;
+
+    overflow:
+        hidden;
+
+    text-overflow:
+        ellipsis;
+
+    white-space:
+        nowrap;
+}
+
+
+/* =====================================================
+   MODAL SHARE
+===================================================== */
+
+.modal-share {
+
+    width:
+        38px;
+
+    height:
+        38px;
+
+    flex-shrink:
+        0;
+
+    border:
+        1px solid #292929;
+
+    border-radius:
+        9px;
+
+    background:
+        #101010;
+
+    color:
+        #777777;
+
+    cursor:
+        pointer;
+
+    font-size:
+        16px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    transition:
+        background .18s ease,
+        border-color .18s ease,
+        color .18s ease;
+}
+
+
+.modal-share:hover {
+
+    background:
+        #181818;
+
+    border-color:
+        #424242;
+
+    color:
+        #eeeeee;
+}
+
+
+/* =====================================================
+   CLOSE BUTTON
+===================================================== */
+
+.close {
+
+    width:
+        38px;
+
+    height:
+        38px;
+
+    flex-shrink:
+        0;
+
+    border:
+        1px solid #292929;
+
+    border-radius:
+        9px;
+
+    background:
+        #101010;
+
+    color:
+        #888888;
+
+    cursor:
+        pointer;
+
+    font-size:
+        21px;
+
+    line-height:
+        1;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    transition:
+        background .18s ease,
+        border-color .18s ease,
+        color .18s ease;
+}
+
+
+.close:hover {
+
+    background:
+        #1b1b1b;
+
+    border-color:
+        #454545;
+
+    color:
+        #eeeeee;
+}
+
+
+/* =====================================================
+   VIDEO CONTAINER
+===================================================== */
+
+.video-container {
+
+    width:
+        100%;
+
+    aspect-ratio:
+        16 / 9;
+
+    background:
+        #000000;
+}
+
+
+.video-container iframe {
+
+    width:
+        100%;
+
+    height:
+        100%;
+
+    display:
+        block;
+
+    border:
+        0;
+}
+
+
+/* =====================================================
+   TOAST
+===================================================== */
+
+.toast {
+
+    position:
+        fixed;
+
+    left:
+        50%;
+
+    bottom:
+        24px;
+
+    z-index:
+        2000;
+
+    padding:
+        10px 17px;
+
+    border:
+        1px solid #292929;
+
+    border-radius:
+        10px;
+
+    background:
+        #101010;
+
+    color:
+        #cccccc;
+
+    font-size:
+        12px;
+
+    box-shadow:
+        4px 5px 0 #000000;
+
+    opacity:
+        0;
+
+    transform:
+        translate(-50%,20px);
+
+    pointer-events:
+        none;
+
+    transition:
+        opacity .2s ease,
+        transform .2s ease;
+}
+
+
+.toast.show {
+
+    opacity:
+        1;
+
+    transform:
+        translate(-50%,0);
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width:1200px) {
+
+    .grid {
+
+        grid-template-columns:
+            repeat(4,minmax(0,1fr));
+    }
+}
+
+
+@media (max-width:900px) {
+
+    .grid {
+
+        grid-template-columns:
+            repeat(3,minmax(0,1fr));
+
+        gap:
+            25px 13px;
+    }
+
+}
+
+
+@media (max-width:650px) {
+
+    .header-inner {
+
+        min-height:
+            108px;
+
+        padding:
+            9px 0;
+
+        flex-wrap:
+            wrap;
+
+        gap:
+            9px;
+    }
+
+
+    .logo {
+
+        width:
+            145px;
+    }
+
+
+    .random-button {
+
+        margin-left:
+            auto;
+    }
+
+
+    .search-wrapper {
+
+        order:
+            3;
+
+        flex-basis:
+            100%;
+
+        max-width:
+            none;
+    }
+
+
+    .search {
+
+        height:
+            40px;
+    }
+
+
+    .main {
+
+        width:
+            94%;
+
+        padding-top:
+            27px;
+    }
+
+
+    .heading {
+
+        font-size:
+            25px;
+    }
+
+
+    .grid {
+
+        grid-template-columns:
+            repeat(2,minmax(0,1fr));
+
+        gap:
+            24px 10px;
+    }
+
+
+    .thumbnail {
+
+        border-radius:
+            8px;
+
+        box-shadow:
+            3px 4px 0 #020202;
+    }
+
+
+    .title {
+
+        padding:
+            8px 1px 0;
+
+        font-size:
+            12px;
+
+        line-height:
+            1.35;
+    }
+
+
+    .modal {
+
+        padding:
+            10px;
+    }
+
+
+    .modal-box {
+
+        width:
+            100%;
+
+        max-height:
+            none;
+
+        border-radius:
+            10px;
+    }
+
+
+    .modal-header {
+
+        min-height:
+            55px;
+
+        padding-left:
+            12px;
+    }
+
+
+    .modal-title {
+
+        font-size:
+            13px;
+    }
+
+
+    .modal-share,
+    .close {
+
+        width:
+            36px;
+
+        height:
+            36px;
+    }
+
+}
+
+
+@media (max-width:380px) {
+
+    .grid {
+
+        grid-template-columns:
+            1fr;
+    }
+
+
+    .logo {
+
+        width:
+            135px;
+    }
+
+}
+
+
+/* =====================================================
+   TOUCH DEVICES
+===================================================== */
+
+@media (hover:none) {
+
+    .card:hover {
+
+        transform:
+            none;
+    }
+
+
+    .card:hover .thumbnail img {
+
+        transform:
+            none;
+
+        opacity:
+            .9;
+
+        filter:
+            none;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="header">
+
+    <div class="header-inner">
+
+
+        <!-- LOGO -->
+
+        <div
+            id="logo"
+            class="logo"
+            title="Home"
+            role="button"
+            tabindex="0"
+        >
+
+            <img
+                src="https://firebasestorage.googleapis.com/v0/b/counter-ea7c8.firebasestorage.app/o/sf%2F10c2d1be-e912-4443-be9a-0341e2f98808.jpeg?alt=media&token=2b4a2e40-1e85-4d36-b00d-bd910f120d0f"
+                alt="Sick Fetish"
+            >
+
+        </div>
+
+
+        <!-- SEARCH -->
+
+        <div
+            id="searchWrapper"
+            class="search-wrapper"
+        >
+
+            <input
+                id="search"
+                class="search"
+                type="search"
+                placeholder="Search videos..."
+                autocomplete="off"
+                aria-label="Search videos"
+            >
+
+
+            <button
+                id="searchCancel"
+                class="search-cancel"
+                type="button"
+                aria-label="Cancel search"
+                title="Clear search"
+            >
+                ×
+            </button>
+
+        </div>
+
+
+        <!-- RANDOM -->
+
+        <button
+            id="randomButton"
+            class="random-button"
+            type="button"
+            aria-label="Random video"
+            title="Random video"
+        >
+            ⤨
+        </button>
+
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     MAIN
+===================================================== -->
+
+<main class="main">
+
+
+    <div class="top-bar">
+
+        <h1
+            id="heading"
+            class="heading"
+        >
+            Latest Videos
+        </h1>
+
+
+        <div
+            id="status"
+            class="status"
+        >
+            Loading videos...
+        </div>
+
+    </div>
+
+
+    <!-- LOADER -->
+
+    <div
+        id="loader"
+        class="loader"
+    ></div>
+
+
+    <!-- GRID -->
+
+    <section
+        id="grid"
+        class="grid"
+    ></section>
+
+
+    <!-- EMPTY -->
+
+    <div
+        id="empty"
+        class="empty"
+    >
+        No videos found.
+    </div>
+
+
+    <!-- PAGINATION -->
+
+    <nav
+        id="pagination"
+        class="pagination"
+        aria-label="Video pages"
+    ></nav>
+
+
+</main>
+
+
+
+<!-- =====================================================
+     VIDEO MODAL
+===================================================== -->
+
+<div
+    id="modal"
+    class="modal"
+    aria-hidden="true"
+>
+
+
+    <div
+        class="modal-box"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+    >
+
+
+        <div class="modal-header">
+
+
+            <div
+                id="modalTitle"
+                class="modal-title"
+            >
+            </div>
+
+
+            <!-- SHARE BUTTON -->
+
+            <button
+                id="modalShare"
+                class="modal-share"
+                type="button"
+                aria-label="Share video"
+                title="Share video"
+            >
+                ↗
+            </button>
+
+
+            <!-- CLOSE BUTTON -->
+
+            <button
+                id="close"
+                class="close"
+                type="button"
+                aria-label="Close video"
+                title="Close"
+            >
+                ×
+            </button>
+
+
+        </div>
+
+
+        <div
+            id="videoContainer"
+            class="video-container"
+        ></div>
+
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     TOAST
+===================================================== -->
+
+<div
+    id="toast"
+    class="toast"
+    role="status"
+    aria-live="polite"
+>
+    Link copied
+</div>
+
+
+
+<script>
+
+/* =====================================================
+   CONFIGURATION
+===================================================== */
+
+
+/*
+CSV is in the SAME folder as videos.html.
+*/
+
+const CSV_URL =
+    "./links.csv";
+
+
+/*
+Exactly 30 videos per page.
+*/
+
+const VIDEOS_PER_PAGE =
+    30;
+
+
+/* =====================================================
+   DOM ELEMENTS
+===================================================== */
+
+const grid =
+    document.getElementById(
+        "grid"
+    );
+
+
+const status =
+    document.getElementById(
+        "status"
+    );
+
+
+const loader =
+    document.getElementById(
+        "loader"
+    );
+
+
+const empty =
+    document.getElementById(
+        "empty"
+    );
+
+
+const pagination =
+    document.getElementById(
+        "pagination"
+    );
+
+
+const search =
+    document.getElementById(
+        "search"
+    );
+
+
+const searchWrapper =
+    document.getElementById(
+        "searchWrapper"
+    );
+
+
+const searchCancel =
+    document.getElementById(
+        "searchCancel"
+    );
+
+
+const heading =
+    document.getElementById(
+        "heading"
+    );
+
+
+const logo =
+    document.getElementById(
+        "logo"
+    );
+
+
+const randomButton =
+    document.getElementById(
+        "randomButton"
+    );
+
+
+const modal =
+    document.getElementById(
+        "modal"
+    );
+
+
+const modalTitle =
+    document.getElementById(
+        "modalTitle"
+    );
+
+
+const modalShare =
+    document.getElementById(
+        "modalShare"
+    );
+
+
+const videoContainer =
+    document.getElementById(
+        "videoContainer"
+    );
+
+
+const closeButton =
+    document.getElementById(
+        "close"
+    );
+
+
+const toast =
+    document.getElementById(
+        "toast"
+    );
+
+
+/* =====================================================
+   STATE
+===================================================== */
+
+let videos =
+    [];
+
+let filteredVideos =
+    [];
+
+let currentPage =
+    1;
+
+let currentVideo =
+    null;
+
+let toastTimer =
+    null;
+
+
+/* =====================================================
+   SHUFFLE
+===================================================== */
+
+function shuffle(array) {
+
+    const result =
+        [...array];
+
+
+    for (
+        let i = result.length - 1;
+        i > 0;
+        i--
+    ) {
+
+        const j =
+            Math.floor(
+                Math.random() *
+                (i + 1)
+            );
+
+
+        [
+            result[i],
+            result[j]
+        ] =
+        [
+            result[j],
+            result[i]
+        ];
+    }
+
+
+    return result;
+}
+
+
+/* =====================================================
+   FORMAT TITLE
+===================================================== */
+
+function formatTitle(
+    slug
+) {
+
+    if (!slug) {
+
+        return "Untitled Video";
+    }
+
+
+    let title =
+        slug;
+
+
+    try {
+
+        title =
+            decodeURIComponent(
+                title
+            );
+
+    }
+
+    catch (_) {
+
+        // Ignore decoding errors.
+    }
+
+
+    title =
+        title
+            .replace(
+                /[-_]+/g,
+                " "
+            )
+            .replace(
+                /\s+/g,
+                " "
+            )
+            .trim();
+
+
+    return title
+        .toLowerCase()
+        .split(" ")
+        .map(
+            word => {
+
+                if (!word) {
+                    return "";
+                }
+
+
+                return (
+                    word.charAt(0).toUpperCase()
+                    +
+                    word.slice(1)
+                );
+
+            }
+        )
+        .join(" ")
+        ||
+        "Untitled Video";
+}
+
+
+/* =====================================================
+   CLEAN URL
+===================================================== */
+
+function cleanUrl(
+    rawUrl
+) {
+
+    let url =
+        String(
+            rawUrl || ""
+        ).trim();
+
+
+    /*
+    Remove surrounding quotes.
+    */
+
+    if (
+        url.length >= 2 &&
+        (
+            (
+                url.startsWith('"') &&
+                url.endsWith('"')
+            )
+            ||
+            (
+                url.startsWith("'") &&
+                url.endsWith("'")
+            )
+        )
+    ) {
+
+        url =
+            url.slice(
+                1,
+                -1
+            ).trim();
+    }
+
+
+    /*
+    Fix accidental:
+
+    https//example.com
+
+    */
+
+    url =
+        url.replace(
+            /^https\/\//i,
+            "https://"
+        );
+
+
+    url =
+        url.replace(
+            /^http\/\//i,
+            "http://"
+        );
+
+
+    return url;
+}
+
+
+/* =====================================================
+   THUMBNAIL FOLDER
+===================================================== */
+
+function getThumbnailFolder(
+    id
+) {
+
+    const number =
+        parseInt(
+            id,
+            10
+        );
+
+
+    if (
+        Number.isNaN(
+            number
+        )
+    ) {
+
+        return null;
+    }
+
+
+    /*
+    1-999   → 0
+    1000-1999 → 1000
+    2000-2999 → 2000
+    */
+
+    return (
+        Math.floor(
+            number / 1000
+        )
+        *
+        1000
+    );
+}
+
+
+/* =====================================================
+   THUMBNAIL URL
+===================================================== */
+
+function createThumbnailUrl(
+    url,
+    id
+) {
+
+    const folder =
+        getThumbnailFolder(
+            id
+        );
+
+
+    if (
+        folder === null
+    ) {
+
+        return null;
+    }
+
+
+    return (
+        url.origin
+        +
+        "/contents/videos_screenshots/"
+        +
+        folder
+        +
+        "/"
+        +
+        encodeURIComponent(
+            id
+        )
+        +
+        "/264x198/1.jpg"
+    );
+}
+
+
+/* =====================================================
+   PARSE VIDEO URL
+===================================================== */
+
+function parseVideoUrl(
+    rawUrl
+) {
+
+    const cleaned =
+        cleanUrl(
+            rawUrl
+        );
+
+
+    if (!cleaned) {
+
+        return null;
+    }
+
+
+    let url;
+
+
+    try {
+
+        url =
+            new URL(
+                cleaned
+            );
+
+    }
+
+    catch (_) {
+
+        return null;
+    }
+
+
+    const parts =
+        url.pathname
+            .split("/")
+            .filter(
+                Boolean
+            );
+
+
+    /*
+    ================================================
+    /videos/ID/title
+    ================================================
+    */
+
+    const videosIndex =
+        parts.findIndex(
+            part =>
+                part.toLowerCase()
+                ===
+                "videos"
+        );
+
+
+    if (
+        videosIndex !== -1 &&
+        parts[
+            videosIndex + 1
+        ]
+    ) {
+
+
+        const id =
+            parts[
+                videosIndex + 1
+            ];
+
+
+        const titleSlug =
+            parts
+                .slice(
+                    videosIndex + 2
+                )
+                .join("-");
+
+
+        const title =
+            formatTitle(
+                titleSlug
+            );
+
+
+        const embedUrl =
+            url.origin
+            +
+            "/embed/"
+            +
+            encodeURIComponent(
+                id
+            );
+
+
+        const thumbnailUrl =
+            createThumbnailUrl(
+                url,
+                id
+            );
+
+
+        return {
+
+            id:
+                id,
+
+            title:
+                title,
+
+            embedUrl:
+                embedUrl,
+
+            thumbnailUrl:
+                thumbnailUrl,
+
+            sourceUrl:
+                url.href
+        };
+    }
+
+
+    /*
+    ================================================
+    /embed/ID
+    ================================================
+    */
+
+    const embedIndex =
+        parts.findIndex(
+            part =>
+                part.toLowerCase()
+                ===
+                "embed"
+        );
+
+
+    if (
+        embedIndex !== -1 &&
+        parts[
+            embedIndex + 1
+        ]
+    ) {
+
+
+        const id =
+            parts[
+                embedIndex + 1
+            ];
+
+
+        return {
+
+            id:
+                id,
+
+            title:
+                "Video",
+
+            embedUrl:
+                url.href,
+
+            thumbnailUrl:
+                createThumbnailUrl(
+                    url,
+                    id
+                ),
+
+            sourceUrl:
+                url.href
+        };
+    }
+
+
+    return null;
+}
+
+
+/* =====================================================
+   PARSE CSV
+===================================================== */
+
+function parseCSV(
+    text
+) {
+
+    return String(
+        text || ""
+    )
+        .split(
+            /\r?\n/
+        )
+        .map(
+            line =>
+                line.trim()
+        )
+        .filter(
+            Boolean
+        );
+}
+
+
+/* =====================================================
+   LOAD VIDEOS
+===================================================== */
+
+async function loadVideos() {
+
+    try {
+
+
+        status.textContent =
+            "Loading video list...";
+
+
+        /*
+        Fetch CSV.
+        */
+
+        const response =
+            await fetch(
+                CSV_URL,
+                {
+                    method:
+                        "GET",
+
+                    cache:
+                        "no-cache"
+                }
+            );
+
+
+        if (
+            !response.ok
+        ) {
+
+            throw new Error(
+                "HTTP " +
+                response.status
+            );
+        }
+
+
+        const text =
+            await response.text();
+
+
+        const urls =
+            parseCSV(
+                text
+            );
+
+
+        const results =
+            [];
+
+        const seen =
+            new Set();
+
+
+        /*
+        Convert every line
+        into a video object.
+        */
+
+        for (
+            const rawUrl
+            of urls
+        ) {
+
+
+            const video =
+                parseVideoUrl(
+                    rawUrl
+                );
+
+
+            if (!video) {
+
+                continue;
+            }
+
+
+            /*
+            Deduplicate by embed URL.
+            */
+
+            if (
+                seen.has(
+                    video.embedUrl
+                )
+            ) {
+
+                continue;
+            }
+
+
+            seen.add(
+                video.embedUrl
+            );
+
+
+            results.push(
+                video
+            );
+        }
+
+
+        /*
+        RANDOMIZE THE ENTIRE
+        ARCHIVE ON EVERY PAGE LOAD.
+        */
+
+        videos =
+            shuffle(
+                results
+            );
+
+
+        filteredVideos =
+            [...videos];
+
+
+        loader.style.display =
+            "none";
+
+
+        heading.textContent =
+            "Latest Videos";
+
+
+        status.textContent =
+            `${videos.length.toLocaleString()} videos available`;
+
+
+        render();
+
+
+        /*
+        If somebody shared:
+
+        ?video=2283
+
+        automatically open it.
+        */
+
+        openVideoFromUrl();
+
+
+    }
+
+    catch (error) {
+
+
+        console.error(
+            "CSV ERROR:",
+            error
+        );
+
+
+        loader.style.display =
+            "none";
+
+
+        status.textContent =
+            "Could not load links.csv";
+
+
+        empty.textContent =
+            "Could not load links.csv. Make sure videos.html and links.csv are in the same folder.";
+
+
+        empty.style.display =
+            "block";
+    }
+}
+
+
+/* =====================================================
+   RENDER
+===================================================== */
+
+function render() {
+
+    grid.innerHTML =
+        "";
+
+    pagination.innerHTML =
+        "";
+
+
+    if (
+        filteredVideos.length === 0
+    ) {
+
+        empty.style.display =
+            "block";
+
+        return;
+    }
+
+
+    empty.style.display =
+        "none";
+
+
+    const totalPages =
+        Math.ceil(
+            filteredVideos.length /
+            VIDEOS_PER_PAGE
+        );
+
+
+    if (
+        currentPage >
+        totalPages
+    ) {
+
+        currentPage =
+            totalPages;
+    }
+
+
+    const start =
+        (
+            currentPage - 1
+        )
+        *
+        VIDEOS_PER_PAGE;
+
+
+    const pageVideos =
+        filteredVideos.slice(
+            start,
+            start + VIDEOS_PER_PAGE
+        );
+
+
+    const fragment =
+        document.createDocumentFragment();
+
+
+    for (
+        const video
+        of pageVideos
+    ) {
+
+        fragment.appendChild(
+            createCard(
+                video
+            )
+        );
+    }
+
+
+    grid.appendChild(
+        fragment
+    );
+
+
+    renderPagination(
+        totalPages
+    );
+}
+
+
+/* =====================================================
+   CREATE CARD
+===================================================== */
+
+function createCard(
+    video
+) {
+
+    const card =
+        document.createElement(
+            "article"
+        );
+
+
+    card.className =
+        "card";
+
+
+    /*
+    Thumbnail.
+    */
+
+    const thumbnail =
+        document.createElement(
+            "div"
+        );
+
+
+    thumbnail.className =
+        "thumbnail";
+
+
+    /*
+    Thumbnail image.
+    */
+
+    if (
+        video.thumbnailUrl
+    ) {
+
+
+        const image =
+            document.createElement(
+                "img"
+            );
+
+
+        image.src =
+            video.thumbnailUrl;
+
+
+        image.alt =
+            video.title;
+
+
+        image.loading =
+            "lazy";
+
+
+        /*
+        If thumbnail 1.jpg doesn't exist,
+        remove it and keep the dark background.
+        */
+
+        image.onerror =
+            function() {
+
+                this.remove();
+            };
+
+
+        thumbnail.appendChild(
+            image
+        );
+    }
+
+
+    /*
+    Title only.
+    */
+
+    const title =
+        document.createElement(
+            "div"
+        );
+
+
+    title.className =
+        "title";
+
+
+    title.textContent =
+        video.title;
+
+
+    card.appendChild(
+        thumbnail
+    );
+
+
+    card.appendChild(
+        title
+    );
+
+
+    /*
+    Clicking card opens player.
+    */
+
+    card.addEventListener(
+        "click",
+        function() {
+
+            openVideo(
+                video
+            );
+        }
+    );
+
+
+    return card;
+}
+
+
+/* =====================================================
+   PAGINATION
+===================================================== */
+
+function renderPagination(
+    totalPages
+) {
+
+    if (
+        totalPages <= 1
+    ) {
+
+        return;
+    }
+
+
+    /*
+    Previous.
+    */
+
+    const previous =
+        document.createElement(
+            "button"
+        );
+
+
+    previous.className =
+        "page-button";
+
+
+    previous.textContent =
+        "‹";
+
+
+    previous.disabled =
+        currentPage === 1;
+
+
+    previous.addEventListener(
+        "click",
+        function() {
+
+            if (
+                currentPage <= 1
+            ) {
+
+                return;
+            }
+
+
+            currentPage--;
+
+
+            render();
+
+
+            scrollTop();
+        }
+    );
+
+
+    pagination.appendChild(
+        previous
+    );
+
+
+    /*
+    Show a compact range of pages.
+    */
+
+    let start =
+        Math.max(
+            1,
+            currentPage - 2
+        );
+
+
+    let end =
+        Math.min(
+            totalPages,
+            currentPage + 2
+        );
+
+
+    /*
+    Page buttons.
+    */
+
+    for (
+        let page = start;
+        page <= end;
+        page++
+    ) {
+
+
+        const button =
+            document.createElement(
+                "button"
+            );
+
+
+        button.className =
+            "page-button";
+
+
+        button.textContent =
+            page;
+
+
+        if (
+            page === currentPage
+        ) {
+
+            button.classList.add(
+                "active"
+            );
+        }
+
+
+        button.addEventListener(
+            "click",
+            function() {
+
+                currentPage =
+                    page;
+
+
+                render();
+
+
+                scrollTop();
+            }
+        );
+
+
+        pagination.appendChild(
+            button
+        );
+    }
+
+
+    /*
+    Next.
+    */
+
+    const next =
+        document.createElement(
+            "button"
+        );
+
+
+    next.className =
+        "page-button";
+
+
+    next.textContent =
+        "›";
+
+
+    next.disabled =
+        currentPage === totalPages;
+
+
+    next.addEventListener(
+        "click",
+        function() {
+
+            if (
+                currentPage >= totalPages
+            ) {
+
+                return;
+            }
+
+
+            currentPage++;
+
+
+            render();
+
+
+            scrollTop();
+        }
+    );
+
+
+    pagination.appendChild(
+        next
+    );
+}
+
+
+/* =====================================================
+   SEARCH UI
+===================================================== */
+
+function updateSearchUI() {
+
+    if (
+        search.value.trim()
+    ) {
+
+        searchWrapper.classList.add(
+            "has-text"
+        );
+
+    }
+
+    else {
+
+        searchWrapper.classList.remove(
+            "has-text"
+        );
+    }
+}
+
+
+/* =====================================================
+   SEARCH
+===================================================== */
+
+search.addEventListener(
+    "input",
+    function() {
+
+        updateSearchUI();
+
+
+        const query =
+            this.value
+                .trim()
+                .toLowerCase();
+
+
+        /*
+        No search.
+        */
+
+        if (!query) {
+
+
+            heading.textContent =
+                "Latest Videos";
+
+
+            filteredVideos =
+                [...videos];
+
+
+            currentPage =
+                1;
+
+
+            status.textContent =
+                `${videos.length.toLocaleString()} videos available`;
+
+
+            render();
+
+
+            return;
+        }
+
+
+        /*
+        Find matches first.
+        */
+
+        const matches =
+            videos.filter(
+                video =>
+                    video.title
+                        .toLowerCase()
+                        .includes(
+                            query
+                        )
+            );
+
+
+        /*
+        IMPORTANT:
+
+        Randomize search results,
+        so the ordering changes every
+        time the search is performed.
+        */
+
+        filteredVideos =
+            shuffle(
+                matches
+            );
+
+
+        currentPage =
+            1;
+
+
+        heading.textContent =
+            "Search Results";
+
+
+        status.textContent =
+            `${filteredVideos.length.toLocaleString()} results`;
+
+
+        render();
+    }
+);
+
+
+/* =====================================================
+   CANCEL SEARCH
+===================================================== */
+
+searchCancel.addEventListener(
+    "click",
+    function() {
+
+        search.value =
+            "";
+
+
+        updateSearchUI();
+
+
+        /*
+        Return to main archive.
+        */
+
+        filteredVideos =
+            [...videos];
+
+
+        currentPage =
+            1;
+
+
+        heading.textContent =
+            "Latest Videos";
+
+
+        status.textContent =
+            `${videos.length.toLocaleString()} videos available`;
+
+
+        render();
+
+
+        /*
+        Remove shared video parameter.
+        */
+
+        const url =
+            new URL(
+                window.location.href
+            );
+
+
+        url.searchParams.delete(
+            "video"
+        );
+
+
+        window.history.replaceState(
+            {},
+            "",
+            url
+        );
+
+
+        search.focus();
+    }
+);
+
+
+/* =====================================================
+   LOGO → HOME
+===================================================== */
+
+function goHome() {
+
+    /*
+    Clear search.
+    */
+
+    search.value =
+        "";
+
+
+    updateSearchUI();
+
+
+    /*
+    Restore main archive.
+    */
+
+    filteredVideos =
+        [...videos];
+
+
+    currentPage =
+        1;
+
+
+    heading.textContent =
+        "Latest Videos";
+
+
+    status.textContent =
+        `${videos.length.toLocaleString()} videos available`;
+
+
+    render();
+
+
+    /*
+    Close player.
+    */
+
+    closeVideo();
+
+
+    /*
+    Remove video query parameter.
+    */
+
+    const url =
+        new URL(
+            window.location.href
+        );
+
+
+    url.searchParams.delete(
+        "video"
+    );
+
+
+    window.history.replaceState(
+        {},
+        "",
+        url
+    );
+
+
+    /*
+    Go to top.
+    */
+
+    window.scrollTo({
+
+        top:
+            0,
+
+        behavior:
+            "smooth"
+    });
+}
+
+
+logo.addEventListener(
+    "click",
+    goHome
+);
+
+
+logo.addEventListener(
+    "keydown",
+    function(event) {
+
+        if (
+            event.key === "Enter" ||
+            event.key === " "
+        ) {
+
+            event.preventDefault();
+
+            goHome();
+        }
+    }
+);
+
+
+/* =====================================================
+   RANDOM VIDEO
+===================================================== */
+
+randomButton.addEventListener(
+    "click",
+    function() {
+
+        if (
+            videos.length === 0
+        ) {
+
+            return;
+        }
+
+
+        const randomIndex =
+            Math.floor(
+                Math.random() *
+                videos.length
+            );
+
+
+        openVideo(
+            videos[
+                randomIndex
+            ]
+        );
+    }
+);
+
+
+/* =====================================================
+   OPEN VIDEO
+===================================================== */
+
+function openVideo(
+    video
+) {
+
+    if (!video) {
+        return;
+    }
+
+
+    currentVideo =
+        video;
+
+
+    /*
+    Set title.
+    */
+
+    modalTitle.textContent =
+        video.title;
+
+
+    /*
+    Clear existing iframe.
+    */
+
+    videoContainer.innerHTML =
+        "";
+
+
+    /*
+    Create iframe only now.
+    */
+
+    const iframe =
+        document.createElement(
+            "iframe"
+        );
+
+
+    iframe.src =
+        video.embedUrl;
+
+
+    iframe.setAttribute(
+        "allowfullscreen",
+        ""
+    );
+
+
+    iframe.setAttribute(
+        "allow",
+        "autoplay; fullscreen; picture-in-picture; encrypted-media"
+    );
+
+
+    iframe.setAttribute(
+        "referrerpolicy",
+        "strict-origin-when-cross-origin"
+    );
+
+
+    iframe.setAttribute(
+        "title",
+        video.title
+    );
+
+
+    /*
+    Add player.
+    */
+
+    videoContainer.appendChild(
+        iframe
+    );
+
+
+    /*
+    Put video ID in URL so the
+    page can be shared.
+    */
+
+    const url =
+        new URL(
+            window.location.href
+        );
+
+
+    url.searchParams.set(
+        "video",
+        video.id
+    );
+
+
+    window.history.replaceState(
+        {},
+        "",
+        url
+    );
+
+
+    /*
+    Open modal.
+    */
+
+    modal.classList.add(
+        "open"
+    );
+
+
+    modal.setAttribute(
+        "aria-hidden",
+        "false"
+    );
+
+
+    document.body.style.overflow =
+        "hidden";
+}
+
+
+/* =====================================================
+   OPEN VIDEO FROM SHARED URL
+===================================================== */
+
+function openVideoFromUrl() {
+
+    const url =
+        new URL(
+            window.location.href
+        );
+
+
+    const videoId =
+        url.searchParams.get(
+            "video"
+        );
+
+
+    if (!videoId) {
+
+        return;
+    }
+
+
+    const video =
+        videos.find(
+            item =>
+                String(item.id)
+                ===
+                String(videoId)
+        );
+
+
+    if (!video) {
+
+        /*
+        Invalid video ID.
+        Remove it from URL.
+        */
+
+        url.searchParams.delete(
+            "video"
+        );
+
+
+        window.history.replaceState(
+            {},
+            "",
+            url
+        );
+
+
+        return;
+    }
+
+
+    openVideo(
+        video
+    );
+}
+
+
+/* =====================================================
+   SHARE CURRENT VIDEO
+===================================================== */
+
+async function shareCurrentVideo() {
+
+    if (!currentVideo) {
+
+        return;
+    }
+
+
+    const url =
+        new URL(
+            window.location.href
+        );
+
+
+    url.searchParams.set(
+        "video",
+        currentVideo.id
+    );
+
+
+    const shareUrl =
+        url.href;
+
+
+    /*
+    Native share menu.
+    */
+
+    if (
+        navigator.share
+    ) {
+
+        try {
+
+            await navigator.share({
+
+                title:
+                    currentVideo.title,
+
+                text:
+                    "Watch " +
+                    currentVideo.title,
+
+                url:
+                    shareUrl
+            });
+
+
+            return;
+
+        }
+
+        catch (error) {
+
+            /*
+            User cancelled native
+            sharing.
+            */
+
+            if (
+                error.name ===
+                "AbortError"
+            ) {
+
+                return;
+            }
+        }
+    }
+
+
+    /*
+    Clipboard fallback.
+    */
+
+    try {
+
+        await navigator.clipboard.writeText(
+            shareUrl
+        );
+
+
+        showToast(
+            "Link copied"
+        );
+
+    }
+
+    catch (_) {
+
+        /*
+        Fallback for older browsers.
+        */
+
+        const input =
+            document.createElement(
+                "input"
+            );
+
+
+        input.value =
+            shareUrl;
+
+
+        document.body.appendChild(
+            input
+        );
+
+
+        input.select();
+
+
+        input.setSelectionRange(
+            0,
+            input.value.length
+        );
+
+
+        try {
+
+            document.execCommand(
+                "copy"
+            );
+
+            showToast(
+                "Link copied"
+            );
+
+        }
+
+        catch (_) {
+
+            showToast(
+                "Copy failed"
+            );
+        }
+
+
+        input.remove();
+    }
+}
+
+
+/* =====================================================
+   SHARE BUTTON
+===================================================== */
+
+modalShare.addEventListener(
+    "click",
+    function(event) {
+
+        event.stopPropagation();
+
+        shareCurrentVideo();
+    }
+);
+
+
+/* =====================================================
+   CLOSE VIDEO
+===================================================== */
+
+function closeVideo() {
+
+    /*
+    Destroy iframe.
+
+    This stops playback and releases
+    the embedded player.
+    */
+
+    videoContainer.innerHTML =
+        "";
+
+
+    currentVideo =
+        null;
+
+
+    modal.classList.remove(
+        "open"
+    );
+
+
+    modal.setAttribute(
+        "aria-hidden",
+        "true"
+    );
+
+
+    document.body.style.overflow =
+        "";
+
+
+    /*
+    Remove video parameter from URL.
+    */
+
+    const url =
+        new URL(
+            window.location.href
+        );
+
+
+    url.searchParams.delete(
+        "video"
+    );
+
+
+    window.history.replaceState(
+        {},
+        "",
+        url
+    );
+}
+
+
+/* =====================================================
+   CLOSE BUTTON
+===================================================== */
+
+closeButton.addEventListener(
+    "click",
+    closeVideo
+);
+
+
+/* =====================================================
+   CLICK OUTSIDE MODAL
+===================================================== */
+
+modal.addEventListener(
+    "click",
+    function(event) {
+
+        if (
+            event.target === modal
+        ) {
+
+            closeVideo();
+        }
+    }
+);
+
+
+/* =====================================================
+   ESCAPE
+===================================================== */
+
+document.addEventListener(
+    "keydown",
+    function(event) {
+
+        if (
+            event.key === "Escape" &&
+            modal.classList.contains(
+                "open"
+            )
+        ) {
+
+            closeVideo();
+        }
+    }
+);
+
+
+/* =====================================================
+   TOAST
+===================================================== */
+
+function showToast(
+    message
+) {
+
+    toast.textContent =
+        message;
+
+
+    toast.classList.add(
+        "show"
+    );
+
+
+    clearTimeout(
+        toastTimer
+    );
+
+
+    toastTimer =
+        setTimeout(
+            function() {
+
+                toast.classList.remove(
+                    "show"
+                );
+
+            },
+            2200
+        );
+}
+
+
+/* =====================================================
+   SCROLL TOP
+===================================================== */
+
+function scrollTop() {
+
+    window.scrollTo({
+
+        top:
+            0,
+
+        behavior:
+            "smooth"
+    });
+}
+
+
+/* =====================================================
+   START
+===================================================== */
+
+loadVideos();
+
+</script>
+
+</body>
+
+</html>
